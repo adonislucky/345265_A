@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Click Counter Sound",
+  "version": "1.0",
+  "description": "Plays an MP3 after every 10 clicks.",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}
